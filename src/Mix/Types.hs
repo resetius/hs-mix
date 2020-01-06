@@ -48,3 +48,9 @@ data State = State {
 } deriving (Eq, Show)
 
 data Range = Empty | Int Int
+
+data Argument = Argument {
+    address :: Int,
+    offset :: Int,
+    range :: Range
+} deriving (Eq, Show)
