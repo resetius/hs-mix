@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c708ac1a68d3027d8e0f7fa0d51798abad9250d3d212e0943be6ddb8636f3e01
+-- hash: 9ae1006b829130008a2757ea33784c71db1b3a84ea6fa2a574c26a06afc5d400
 
 name:           hs-mix
 version:        0.1.0.0
@@ -28,6 +28,8 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Mix.Types
+      Mix.Commands
   other-modules:
       Paths_hs_mix
   hs-source-dirs:
